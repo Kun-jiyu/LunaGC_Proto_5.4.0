@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Quest.proto";
+
+// Version: 5.4
+// CmdId: 26127
+message QuestListUpdateNotify {
+	repeated Quest quest_list = 14;
+}

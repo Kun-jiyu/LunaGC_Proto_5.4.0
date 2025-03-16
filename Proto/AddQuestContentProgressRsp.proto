@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+// CmdId: 9770
+message AddQuestContentProgressRsp {
+	uint32 content_type = 4;
+	int32 retcode = 3;
+}

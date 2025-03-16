@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+// CmdId: 24838
+message QuestProgressUpdateNotify {
+	repeated uint32 fail_progress_list = 7;
+	repeated uint32 finish_progress_list = 15;
+	uint32 quest_id = 14;
+}

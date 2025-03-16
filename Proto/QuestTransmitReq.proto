@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+// CmdId: 21722
+message QuestTransmitReq {
+	uint32 template_loading_id = 4;
+	uint32 point_id = 9;
+	uint32 quest_id = 5;
+}

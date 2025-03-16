@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ParentQuest.proto";
+
+// Version: 5.4
+// CmdId: 5364
+message FinishedParentQuestNotify {
+	repeated ParentQuest parent_quest_list = 7;
+}

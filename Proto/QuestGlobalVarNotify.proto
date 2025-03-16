@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "QuestGlobalVar.proto";
+
+// Version: 5.4
+// CmdId: 28785
+message QuestGlobalVarNotify {
+	repeated QuestGlobalVar var_list = 13;
+}

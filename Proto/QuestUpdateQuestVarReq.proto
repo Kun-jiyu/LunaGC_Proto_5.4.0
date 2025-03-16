@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "QuestVarOp.proto";
+
+// Version: 5.4
+// CmdId: 5559
+message QuestUpdateQuestVarReq {
+	repeated QuestVarOp quest_var_op_list = 4;
+	uint32 quest_id = 1;
+	uint32 parent_quest_id = 11;
+	uint32 parent_quest_var_seq = 5;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+message InfernceWordInfo {
+	uint32 unlock_by_word_id = 3;
+	bool EKOEAEOPLPC = 4;
+	bool AOALELNAGGM = 8;
+	bool BBDFONBABBC = 6;
+	uint32 word_id = 15;
+}

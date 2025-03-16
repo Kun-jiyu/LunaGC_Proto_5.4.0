@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+// CmdId: 25467
+message QuestTransmitRsp {
+	int32 retcode = 4;
+	uint32 quest_id = 1;
+	uint32 point_id = 13;
+}
