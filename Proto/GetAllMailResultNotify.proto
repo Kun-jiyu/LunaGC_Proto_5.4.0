@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "MailData.proto";
+
+// Version: 5.4
+// CmdId: 9103
+message GetAllMailResultNotify {
+	repeated MailData mail_list = 4;
+	string transaction = 1;
+	uint32 packet_be_sent_num = 15;
+	int32 retcode = 13;
+	bool is_collected = 3;
+	uint32 packet_num = 7;
+}

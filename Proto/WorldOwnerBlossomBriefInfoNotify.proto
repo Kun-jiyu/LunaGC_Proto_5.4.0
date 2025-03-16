@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "BlossomBriefInfo.proto";
+
+// Version: 5.4
+// CmdId: 4587
+message WorldOwnerBlossomBriefInfoNotify {
+	repeated BlossomBriefInfo brief_info_list = 4;
+}

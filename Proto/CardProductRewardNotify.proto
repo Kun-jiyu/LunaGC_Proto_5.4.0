@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+// CmdId: 2422
+message CardProductRewardNotify {
+	string product_id = 14;
+	uint32 hcoin = 13;
+	uint32 remain_days = 11;
+}

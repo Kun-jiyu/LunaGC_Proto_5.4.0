@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+// Version: 5.4
+// CmdId: 2327
+message QueryPathRsp {
+	enum PathStatusType {
+		PathStatusType_STATUS_FAIL = 0;
+		PathStatusType_STATUS_SUCC = 1;
+		PathStatusType_STATUS_PARTIAL = 2;
+	}
+
+	repeated Vector corners = 2;
+	int32 query_id = 6;
+	int32 retcode = 4;
+	PathStatusType query_status = 5;
+}

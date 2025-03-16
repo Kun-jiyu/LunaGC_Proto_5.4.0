@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+// CmdId: 22855
+message AvatarFetterLevelRewardRsp {
+	uint32 fetter_level = 7;
+	uint32 reward_id = 13;
+	int32 retcode = 10;
+	uint64 avatar_guid = 14;
+}

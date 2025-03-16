@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ShopGoods.proto";
+
+// Version: 5.4
+// CmdId: 26467
+message BuyGoodsReq {
+	ShopGoods goods = 4;
+	uint32 buy_count = 3;
+	uint32 shop_type = 2;
+}

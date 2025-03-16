@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+message QueryFilter {
+	int32 IHDHBGOKPKL = 1;
+	int32 GJFANEIMABH = 4;
+}

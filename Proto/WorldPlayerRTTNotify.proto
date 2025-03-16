@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "PlayerRTTInfo.proto";
+
+// Version: 5.4
+// CmdId: 919
+message WorldPlayerRTTNotify {
+	repeated PlayerRTTInfo player_rtt_list = 8;
+}

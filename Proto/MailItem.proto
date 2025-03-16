@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "EquipParam.proto";
+import "MaterialDeleteInfo.proto";
+
+// Version: 5.4
+message MailItem {
+	EquipParam equip_param = 1;
+	MaterialDeleteInfo delete_info = 2;
+}
