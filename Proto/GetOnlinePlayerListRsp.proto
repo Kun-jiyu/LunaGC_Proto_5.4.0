@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "OnlinePlayerInfo.proto";
+
+// Version: 5.4
+// CmdId: 20809
+message GetOnlinePlayerListRsp {
+	repeated OnlinePlayerInfo player_info_list = 15;
+	int32 retcode = 7;
+	uint32 param = 6;
+}
