@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ShowAvatarInfo.proto";
+
+// Version: 5.4
+// CmdId: 6349
+message GetFriendShowAvatarInfoRsp {
+	repeated ShowAvatarInfo show_avatar_info_list = 6;
+	uint32 uid = 14;
+	int32 retcode = 11;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "PropValue.proto";
+
+// Version: 5.4
+// CmdId: 5688
+message PlayerPropNotify {
+	map<uint32, PropValue> prop_map = 11;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+// CmdId: 23990
+message AskAddFriendRsp {
+	uint32 target_uid = 1;
+	int32 retcode = 11;
+	uint32 param = 2;
+}

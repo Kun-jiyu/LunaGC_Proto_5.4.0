@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "FriendBrief.proto";
+
+// Version: 5.4
+// CmdId: 29511
+message AskAddFriendNotify {
+	FriendBrief target_friend_brief = 1;
+	uint32 target_uid = 9;
+}

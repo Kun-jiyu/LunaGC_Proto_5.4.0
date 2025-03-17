@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+// CmdId: 8890
+message EnterTransPointRegionNotify {
+	uint32 point_id = 3;
+	uint32 scene_id = 12;
+}
