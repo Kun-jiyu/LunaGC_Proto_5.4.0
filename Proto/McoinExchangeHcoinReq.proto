@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+// CmdId: 21119
+message McoinExchangeHcoinReq {
+	uint32 mcoin_cost = 7;
+	uint32 hcoin = 6;
+}

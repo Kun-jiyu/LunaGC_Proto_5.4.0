@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "PlayerDieOption.proto";
+
+// Version: 5.4
+// CmdId: 24937
+message DungeonDieOptionRsp {
+	uint32 revive_count = 11;
+	int32 retcode = 4;
+	PlayerDieOption die_option = 15;
+}

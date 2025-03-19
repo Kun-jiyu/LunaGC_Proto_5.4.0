@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ItemParam.proto";
+
+// Version: 5.4
+// CmdId: 24949
+message TakeAchievementRewardRsp {
+	repeated ItemParam item_list = 2;
+	repeated uint32 id_list = 13;
+	int32 retcode = 14;
+}

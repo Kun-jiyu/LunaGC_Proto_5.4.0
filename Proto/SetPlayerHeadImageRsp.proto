@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ProfilePicture.proto";
+
+// Version: 5.4
+// CmdId: 9441
+message SetPlayerHeadImageRsp {
+	ProfilePicture profile_picture = 6;
+	int32 retcode = 7;
+}

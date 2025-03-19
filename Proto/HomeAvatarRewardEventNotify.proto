@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "HomeAvatarRewardEventInfo.proto";
+
+// Version: 5.4
+// CmdId: 3574
+message HomeAvatarRewardEventNotify {
+	HomeAvatarRewardEventInfo reward_event = 2;
+	repeated HomeAvatarRewardEventInfo pending_list = 8;
+	bool is_event_trigger = 13;
+}

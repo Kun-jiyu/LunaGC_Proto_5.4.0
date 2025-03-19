@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+message ActivityShopSheetInfo {
+	uint32 sheet_id = 8;
+	uint32 begin_time = 10;
+	uint32 end_time = 15;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+// CmdId: 7913
+message UpdatePlayerShowAvatarListRsp {
+	repeated uint32 show_avatar_id_list = 10;
+	int32 retcode = 9;
+	bool is_show_constellation_num = 6;
+	bool is_show_avatar = 1;
+}

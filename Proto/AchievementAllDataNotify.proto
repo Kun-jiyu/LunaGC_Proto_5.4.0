@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Achievement.proto";
+
+// Version: 5.4
+// CmdId: 3017
+message AchievementAllDataNotify {
+	repeated Achievement achievement_list = 4;
+	repeated uint32 reward_taken_goal_id_list = 15;
+}

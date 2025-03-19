@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+// CmdId: 6385
+message GetActivityShopSheetInfoReq {
+	uint32 shop_type = 2;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+// CmdId: 5683
+message ChangeGameTimeRsp {
+	uint32 cur_game_time = 15;
+	uint32 extra_days = 8;
+	int32 retcode = 9;
+}
