@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "InteractType.proto";
+import "InterOpType.proto";
+
+// Version: 5.4
+// CmdId: 27411
+message GadgetInteractRsp {
+	int32 retcode = 6;
+	InterOpType op_type = 9;
+	uint32 gadget_entity_id = 12;
+	uint32 gadget_id = 8;
+	InteractType interact_type = 11;
+	uint32 MLKDKFEJJFL = 5;
+}
