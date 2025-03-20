@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+// CmdId: 4945
+message BargainOfferPriceReq {
+	uint32 price = 11;
+	uint32 bargain_id = 13;
+}

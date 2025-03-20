@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "MaterialInfo.proto";
+
+// Version: 5.4
+// CmdId: 21753
+message DestroyMaterialReq {
+	repeated MaterialInfo material_list = 3;
+}

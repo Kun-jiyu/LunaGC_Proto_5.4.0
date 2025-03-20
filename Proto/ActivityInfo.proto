@@ -4,6 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "ActivityWatcherInfo.proto";
 import "ActivityPushTipsData.proto";
+import "MusicGameActivityDetailInfo.proto";
 
 // Don't want to deal with it
 // Version: 5.4
@@ -38,7 +39,7 @@ message ActivityInfo {
 	bool EDLIAHPJBGD = 10;
 	bool FOOCOANFLEL = 739;
 	bool AHPPKGFBJDK = 100;
-	// oneof detail {
+	oneof detail {
 		// SeaLampActivityDetailInfo sam_lamp_info = 13;
 		// CrucibleActivityDetailInfo crucible_info = 5;
 		// SalesmanActivityDetailInfo salesman_info = 8;
@@ -69,7 +70,7 @@ message ActivityInfo {
 		// MoonfinTrialActivityDetailInfo moonfin_trial_info = 639;
 		// LunaRiteDetailInfo luna_rite_info = 1752;
 		// PlantFlowerActivityDetailInfo plant_flower_info = 1811;
-		// MusicGameActivityDetailInfo music_game_info = 139;
+		MusicGameActivityDetailInfo music_game_info = 139;
 		// RoguelikeDungeonActivityDetailInfo roguelike_dungoen_info = 2036;
 		// DigActivityDetailInfo dig_info = 1562;
 		// HachiActivityDetailInfo hachi_info = 898;
@@ -170,5 +171,5 @@ message ActivityInfo {
 		// TowerChallengeDetailInfo tower_challenge_detail_info = 1488;
 		// FishingJoyDetailInfo fishing_joy_detail_info = 324;
 		// MikawaFlowerDetailInfo mikawa_flower_detail_info = 317;
-	// }
+	}
 }

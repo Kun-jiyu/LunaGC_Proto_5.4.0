@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+// CmdId: 6021
+message GmTalkRsp {
+	string msg = 8;
+	string retmsg = 3;
+	int32 retcode = 11;
+}

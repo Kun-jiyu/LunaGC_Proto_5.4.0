@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+// CmdId: 21160
+message WidgetDoBagRsp {
+	int32 retcode = 1;
+	uint32 material_id = 4;
+}

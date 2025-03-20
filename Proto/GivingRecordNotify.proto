@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "GivingRecord.proto";
+
+// Version: 5.4
+// CmdId: 2816
+message GivingRecordNotify {
+	repeated GivingRecord giving_record_list = 7;
+}

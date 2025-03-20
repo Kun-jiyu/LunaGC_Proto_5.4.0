@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+message UgcMusicBriefInfo {
+	// ?? GKIILJOMIKI social = 602;
+	repeated uint32 EGDAOHCLKKA = 463;
+	repeated uint32 OHBJLCABHJM = 161;
+	repeated uint32 IJFFFKGLFLB = 879;
+	string creator_nickname = 14;
+	uint32 LHAIALAGPAE = 8;
+	uint32 LHLCMFFCKFK = 1507;
+	uint64 ugc_guid = 10;
+	uint32 LBIPJICLJNE = 1329;
+	bool LMDKBJLMAOH = 13;
+	bool HFBFDELJAAF = 2;
+	bool BEPNMAKMBPG = 3;
+	bool is_psn_platform = 7;
+	uint32 max_score = 1;
+	uint64 import_from_ugc_guid = 6;
+	uint32 KCLDPDOFAAA = 11;
+	uint32 version = 5;
+	uint32 IOIMDMJEJAN = 525;
+	uint32 music_id = 15;
+	uint32 CDOHAEJIIBK = 1711;
+	uint32 BCBJBBPCBHO = 12;
+	uint32 MOAJBEHGEAM = 1797;
+	uint32 DICNDBEPMGE = 1539;
+	uint32 CPKGOHLAGNE = 9;
+	uint32 BMFLJDCKFOJ = 4;
+}

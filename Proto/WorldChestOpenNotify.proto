@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+// CmdId: 4056
+message WorldChestOpenNotify {
+	uint32 group_id = 15;
+	uint32 config_id = 9;
+	uint32 scene_id = 12;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+// CmdId: 9933
+message DestroyMaterialRsp {
+	repeated uint32 item_id_list = 10;
+	repeated uint32 item_count_list = 14;
+	int32 retcode = 5;
+}
