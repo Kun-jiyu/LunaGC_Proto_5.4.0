@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+message AiSkillCdInfo {
+	map<uint32, uint32> MCCPIMHOOFE = 8;
+	map<uint32, uint32> ALIBMNIDJKK = 1;
+}

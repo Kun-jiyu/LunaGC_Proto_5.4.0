@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+message ChatInfo {
+	message SystemHint {
+		uint32 type = 2;
+	}
+
+	enum SystemHintType {
+		SYSTEM_HINT_TYPE_CHAT_NONE = 0;
+		SYSTEM_HINT_TYPE_CHAT_ENTER_WORLD = 1;
+		SYSTEM_HINT_TYPE_CHAT_LEAVE_WORLD = 2;
+	}
+
+	string psn_id = 7;
+	uint32 to_uid = 13;
+	uint32 time = 14;
+	uint32 sequence = 3;
+	uint32 platform_type = 4;
+	bool is_read = 2;
+	uint32 uid = 8;
+	oneof content {
+		string text = 71;
+		uint32 icon = 48;
+		SystemHint system_hint = 385;
+	}
+}

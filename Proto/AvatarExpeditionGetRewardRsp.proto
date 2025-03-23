@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "RewardItemInfo.proto";
+import "AvatarExpeditionInfo.proto";
+
+// Version: 5.4
+// CmdId: 20708
+message AvatarExpeditionGetRewardRsp {
+	repeated RewardItemInfo reward_item_info = 8;
+	repeated int32 EKHNCEOENKN = 13;
+	map<uint64, AvatarExpeditionInfo> expedition_info_map = 7;
+	int32 retcode = 4;
+}

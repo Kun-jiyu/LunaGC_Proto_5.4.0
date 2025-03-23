@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+// CmdId: 6374
+message UnlockPersonalLineRsp {
+	int32 retcode = 6;
+	uint32 personal_line_id = 8;
+	oneof param {
+		uint32 level = 1;
+		uint32 chapter_id = 14;
+	}
+}

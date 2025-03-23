@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+// CmdId: 2486
+message AvatarExpeditionGetRewardReq {
+	bool JEHBGLJHJGA = 11;
+	uint64 avatar_guid = 9;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+// CmdId: 3894
+message CombineDataNotify {
+	repeated uint32 combine_id_list = 11;
+}

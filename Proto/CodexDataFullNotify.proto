@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "CodexTypeData.proto";
+
+// Version: 5.4
+// CmdId: 21260
+message CodexDataFullNotify {
+	repeated uint32 recent_viewed_pushtips_list = 11;
+	repeated CodexTypeData type_data_list = 8;
+	uint32 HGBGECMAJEC = 12;
+	uint32 BPAMHJFFOLG = 2;
+}

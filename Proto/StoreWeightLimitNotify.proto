@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "StoreType.proto";
+
+// Version: 5.4
+// CmdId: 20944
+message StoreWeightLimitNotify {
+	uint32 weapon_count_limit = 6;
+	uint32 weight_limit = 1;
+	StoreType store_type = 8;
+	uint32 furniture_count_limit = 5;
+	uint32 material_count_limit = 13;
+	uint32 reliquary_count_limit = 4;
+}
