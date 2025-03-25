@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+message KFNKDHGNOIE {
+	map<uint32, uint32> PEGCEOGDFIG = 13;
+}

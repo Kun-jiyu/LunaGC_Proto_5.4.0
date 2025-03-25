@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Uint32Pair.proto";
+
+// Version: 5.4
+// CmdId: 27772
+message FurnitureCurModuleArrangeCountNotify {
+	repeated Uint32Pair furniture_arrange_count_list = 1;
+}

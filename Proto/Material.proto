@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "MaterialDeleteInfo.proto";
+
+// Version: 5.4
+message Material {
+	MaterialDeleteInfo delete_info = 2;
+	uint32 count = 1;
+}

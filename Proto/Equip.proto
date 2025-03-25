@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Reliquary.proto";
+import "Weapon.proto";
+
+// Version: 5.4
+message Equip {
+	bool is_locked = 3;
+	oneof detail {
+		Reliquary reliquary = 1;
+		Weapon weapon = 2;
+	}
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ENJDKOEDAOI.proto";
+
+// Version: 5.4
+message GameplayRecommendationWeaponResponse {
+	repeated ENJDKOEDAOI weapon_list = 1;
+}

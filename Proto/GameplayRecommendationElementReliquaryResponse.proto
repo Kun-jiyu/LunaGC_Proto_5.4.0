@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "GameplayRecommendationReliquaryMainPropData.proto";
+import "FAHPHENPLBL.proto";
+
+// Version: 5.4
+message GameplayRecommendationElementReliquaryResponse {
+	repeated GameplayRecommendationReliquaryMainPropData OMJJDDGJOIJ = 2;
+	repeated FAHPHENPLBL GNFJCMBAINH = 9;
+	uint32 equip_type = 15;
+	uint32 element_type = 7;
+}

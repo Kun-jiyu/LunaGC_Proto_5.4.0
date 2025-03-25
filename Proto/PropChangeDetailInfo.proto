@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "DetailAbilityInfo.proto";
+
+// Version: 5.4
+message PropChangeDetailInfo {
+	oneof detail_info {
+		DetailAbilityInfo detail_ability_info = 12;
+	}
+}

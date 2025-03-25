@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "SceneEntityInfo.proto";
+
+// Version: 5.4
+// CmdId: 2105
+message AvatarTraceEffectChangeNotify {
+	SceneEntityInfo entity_info = 7;
+}

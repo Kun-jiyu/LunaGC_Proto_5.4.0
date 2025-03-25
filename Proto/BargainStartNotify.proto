@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "BargainSnapshot.proto";
+
+// Version: 5.4
+// CmdId: 1639
+message BargainStartNotify {
+	BargainSnapshot snapshot = 5;
+	uint32 bargain_id = 12;
+}

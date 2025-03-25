@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+message BattlePassCycle {
+	uint32 cycle_idx = 8;
+	uint32 begin_time = 13;
+	uint32 end_time = 4;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+// Version: 5.4
+message EntityClientExtraInfo {
+	Vector PCCBAFDEJFH = 1;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "KFNKDHGNOIE.proto";
+
+// Version: 5.4
+message ODGNFGAPJFN {
+	repeated uint32 HONLBPHGHJA = 12;
+	map<uint32, KFNKDHGNOIE> LEGBCBENJBC = 6;
+	map<uint32, uint32> PGCCEAOINCK = 10;
+	repeated uint32 AJGAEMJDMGJ = 3;
+	uint32 DPFCAJCMFJN = 1;
+}

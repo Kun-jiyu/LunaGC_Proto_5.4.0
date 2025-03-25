@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+message BattlePassRewardPlanOption {
+	uint32 reward_type = 12;
+	uint32 tier_id = 4;
+	bool is_original = 5;
+}

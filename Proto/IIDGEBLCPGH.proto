@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+enum IIDGEBLCPGH {
+	IIDGEBLCPGH_NONE = 0;
+	IIDGEBLCPGH_IN_BAG = 1;
+	IIDGEBLCPGH_CAN_FORGE = 2;
+}

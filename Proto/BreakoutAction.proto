@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "BreakoutActionType.proto";
+import "BreakoutVector2.proto";
+
+// Version: 5.4
+message BreakoutAction {
+	BreakoutVector2 move_dir = 8;
+	BreakoutVector2 pos = 7;
+	BreakoutVector2 extra_ball_dir = 15;
+	uint32 peer_id = 10;
+	uint32 extra_ball_index	 = 16;
+	uint64 KBBLKFNEJAG = 18;
+	uint64 server_game_time = 3;
+	uint32 element_reaction_buff = 12;
+	int32 speed = 9;
+	bool is_faile = 4;
+	bool has_extra_ball = 14;
+	uint64 client_game_time = 2;
+	uint32 pre_index = 5;
+	BreakoutActionType action_type = 1;
+	int32 offset = 17;
+	uint32 new_index = 6;
+	uint32 speed_increase_count = 13;
+	uint32 element_type = 11;
+}

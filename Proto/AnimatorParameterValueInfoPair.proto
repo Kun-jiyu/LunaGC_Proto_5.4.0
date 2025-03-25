@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "AnimatorParameterValueInfo.proto";
+
+// Version: 5.4
+message AnimatorParameterValueInfoPair {
+	AnimatorParameterValueInfo animator_para = 2;
+	int32 name_id = 1;
+}

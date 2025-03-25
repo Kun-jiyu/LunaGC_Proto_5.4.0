@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+import "AbilityString.proto";
+import "ForwardType.proto";
+import "LifeByOwnerType.proto";
+
+// Version: 5.4
+// CmdId: 5111
+message EvtCreateGadgetNotify {
+	repeated uint32 target_entity_id_list = 1152;
+	AbilityString ability_name = 683;
+	Vector init_pos = 3;
+	Vector init_euler_angles = 10;
+	repeated uint32 target_lock_point_index_list = 812;
+	uint64 guid = 11;
+	uint32 camp_id = 13;
+	uint32 target_lock_point_index = 12;
+	uint32 owner_entity_id = 15;
+	int32 local_id = 1200;
+	ForwardType forward_type = 9;
+	uint32 camp_type = 2;
+	uint32 target_entity_id = 7;
+	uint32 entity_id = 14;
+	LifeByOwnerType life_by_owner_type = 433;
+	uint32 room_id = 1;
+	bool is_peer_id_from_player = 737;
+	bool is_async_load = 8;
+	bool is_true_life_time_by_owner = 1085; //?? 6
+	bool sight_group_with_owner = 6; //?? 1085
+	uint32 born_slot_index = 807;
+	uint32 prop_owner_entity_id = 5;
+	uint32 config_id = 4;
+	uint32 init_pose_id = 642;
+}

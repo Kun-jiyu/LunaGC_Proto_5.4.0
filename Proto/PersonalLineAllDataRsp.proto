@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "LockedPersonallineData.proto";
+
+// Version: 5.4
+// CmdId: 21529
+message PersonalLineAllDataRsp {
+	repeated uint32 BNFBDILEEOI = 12;
+	repeated uint32 ongoing_personal_line_list = 1;
+	repeated uint32 can_be_unlocked_personal_line_list = 8;
+	repeated LockedPersonallineData locked_personal_line_list = 2;
+	uint32 legendary_key_count = 9;
+	int32 retcode = 15;
+	uint32 cur_finished_daily_task_count = 10;
+}

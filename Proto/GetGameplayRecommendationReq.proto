@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "GameplayRecommendationSkillRequest.proto";
+import "GameplayRecommendationReliquaryRequest.proto";
+import "GameplayRecommendationElementReliquaryRequest.proto";
+import "GameplayRecommendationReliquarySetRequest.proto";
+import "GameplayRecommendationElementReliquarySetRequest.proto";
+import "GameplayRecommendationWeaponRequest.proto";
+import "GameplayRecommendationElementWeaponRequest.proto";
+
+// Version: 5.4
+// CmdId: 3143
+message GetGameplayRecommendationReq {
+	uint32 avatar_id = 4;
+	uint32 type = 13;
+	oneof detail {
+		GameplayRecommendationSkillRequest skill_request = 1518;
+		GameplayRecommendationReliquaryRequest reliquary_request = 30;
+		GameplayRecommendationElementReliquaryRequest element_reliquary_request = 1443;
+		GameplayRecommendationReliquarySetRequest reliquary_set_request = 1454;
+		GameplayRecommendationElementReliquarySetRequest element_reliquary_set_request = 384;
+		GameplayRecommendationWeaponRequest weapon_request = 891;
+		GameplayRecommendationElementWeaponRequest element_weapon_request = 225;
+	}
+}

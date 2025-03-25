@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "BreakoutPhysicalObject.proto";
+
+// Version: 5.4
+message BreakoutSpawnPoint {
+	repeated BreakoutPhysicalObject spawned_brick_list = 3;
+	uint32 id = 1;
+	uint32 brick_suite_id = 2;
+}

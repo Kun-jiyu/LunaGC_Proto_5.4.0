@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ODGNFGAPJFN.proto";
+
+// Version: 5.4
+message GameplayRecommendationReliquarySetResponse {
+	repeated ODGNFGAPJFN OCMKKMIFHEF = 1;
+}

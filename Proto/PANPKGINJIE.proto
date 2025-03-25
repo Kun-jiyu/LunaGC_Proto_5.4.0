@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 5.4
+enum PANPKGINJIE {
+	NONE = 0;
+	LOW = 1;
+	MID = 2;
+	HIGH = 3;
+}

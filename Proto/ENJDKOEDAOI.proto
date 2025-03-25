@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "PANPKGINJIE.proto";
+import "IIDGEBLCPGH.proto";
+
+// Version: 5.4
+message ENJDKOEDAOI {
+	PANPKGINJIE IDMBLBCEPGL = 5;
+	uint32 FMCLMAILIDM = 9;
+	IIDGEBLCPGH source = 13;
+}
